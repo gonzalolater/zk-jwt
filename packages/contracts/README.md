@@ -57,7 +57,6 @@ forge script script/Deploy_jwtRegistry.s.sol:DeployScript --rpc-url $RPC_URL --b
    ```
 
 2. **Integration**:
-
    - **Foundry**: Add the following line to remappings.txt:
 
    ```text
