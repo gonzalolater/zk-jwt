@@ -3,7 +3,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 import localFont from 'next/font/local';
 import './globals.css';
 import { CSPostHogProvider } from './providers';
-import PostHogPageView from "./PostHogPageView"
+import PostHogPageView from './PostHogPageView';
 
 const geistSans = localFont({
   src: './fonts/GeistVF.woff',
