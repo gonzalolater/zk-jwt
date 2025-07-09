@@ -34,7 +34,6 @@ include "@zk-email/jwt-tx-builder-circuits/jwt-auth.circom";
 > Note: We use these values for n and k because their product (n \* k) needs to be more than 2048 (RSA constraint) and n has to be less than half of 255 to fit in a circom signal.
 
 - Inputs:
-
   - `message`: The JWT message (header + payload).
   - `messageLength`: Actual length of the message signed in the JWT.
   - `pubkey`: The RSA public key split into k chunks of n bits each.
