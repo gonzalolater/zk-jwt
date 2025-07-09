@@ -17,5 +17,8 @@
   },
   "devDependencies": {
     "prettier": "^3.4.2"
+  },
+  "dependencies": {
+    "yarn": "^1.22.22"
   }
 }
